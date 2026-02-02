@@ -20,7 +20,7 @@ A semi-professional walkthrough of a TorchEEG-powered emotion recognition pipeli
    pip install -r requirements.txt
    # or
    pip install torcheeg ipywidgets torch-scatter torchinfo pytorch-lightning
-Download the DEAP raw files into deap-dataset/data_preprocessed_python (see TorchEEG’s DEAP dataset docs) or reuse the cached path referenced in the notebook.
+Download the ![DEAP raw files](https://www.kaggle.com/datasets/manh123df/deap-dataset) into deap-dataset/data_preprocessed_python or reuse the cached path referenced in the notebook.
 Launch the notebook with jupyter lab/notebook and run cells in order.
 Tips
 If you switch to a different GPU/CPU, adjust the accelerator argument in ClassifierTrainer.
