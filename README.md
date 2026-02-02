@@ -14,7 +14,7 @@ A semi-professional walkthrough of a TorchEEG-powered emotion recognition pipeli
 ## Getting started
 
 1. Clone this repo and `cd` into the notebook directory.
-2. (Optional) Create and activate a Python (≥3.10) venv.
+2. (in-case of wheel/pip error) Create and activate a Python (=3.10) venv.
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
