@@ -22,15 +22,10 @@ A semi-professional walkthrough of a TorchEEG-powered emotion recognition pipeli
    pip install torcheeg ipywidgets torch-scatter torchinfo pytorch-lightning
 Download the [DEAP raw files](https://www.kaggle.com/datasets/manh123df/deap-dataset) into deap-dataset/data_preprocessed_python or reuse the cached path referenced in the notebook.
 Launch the notebook with jupyter lab/notebook and run cells in order.
+
 Tips
 If you switch to a different GPU/CPU, adjust the accelerator argument in ClassifierTrainer.
 Use the .torcheeg/model_selection_* splits to reproduce the same train/val/test split across experiments.
 For interpretability, capture validation metrics and loss curves by extending the trainer callbacks (e.g., LearningRateMonitor, ModelCheckpoint).
 Assets
 resnet_summary.png: Torchinfo summary (paste the provided screenshot here).
-
-
-Next steps:
-1. Save the image you sent as `assets/resnet_summary.png` (or update the Markdown path accordingly).
-2. Commit `README.md` alongside the notebook.
-3. Run the notebook end-to-end if you want to refresh the cached splits/metrics.
